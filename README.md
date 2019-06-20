@@ -2,7 +2,7 @@
 A chat app using WebSockets
 # What are WebSockets
 - Une communication entre un client et un serveur, ou les données circulent dans les deux directions (client/serveur ou serveur/client) ce qui permet une communication en temps réel client serveur (du fait que la communication est toujours ouvert)
-- Par exemple dans applications de chat, on a un serveur ou notre application est hébergé, tous les clients se connectent a ce serveur pour échanger, lorsque un client se connecte sur le serveur il va avoir la page web en plus de l'ouverture du canal de communication (chaque client a son propre socket)
+- Par exemple dans cette applications de chat, on a un serveur qui héberge notre application, tous les clients se connectent a ce serveur pour échanger, lorsque un client se connecte sur le serveur il va avoir la page web en plus de l'ouverture du canal de communication (chaque client a son propre socket)
 - La communication s'effctue sans utiliser de l'AJAX
 - Use cases:
     - Multiplayer browser games
